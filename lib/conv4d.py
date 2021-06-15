@@ -117,7 +117,7 @@ class Conv4d(_ConvNd):
             _quadruple(0),
             groups,
             bias,
-            "zero",
+            "zeros",
         )
         # weights will be sliced along one dimension during convolution loop
         # make the looping dimension to be the first one in the tensor,
